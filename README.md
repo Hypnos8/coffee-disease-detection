@@ -4,7 +4,7 @@ An Android hackathon prototype for screening coffee-leaf photos, with offline
 inference using two MobileNetV3-Small models: coffee-leaf recognition, followed
 by multilabel screening for **Cercospora, Miner, Phoma, and Rust**.
 
-**[Download the v0 release](https://github.com/Hypnos8/coffee-disease-detection/releases/tag/v0)**
+**[Download the v0.1 release](https://github.com/Hypnos8/coffee-disease-detection/releases/tag/v0)**
 
 ## Android app
 
