@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "task": "coffee_leaf_classifier",
+  "runtime": "ONNX Runtime Android",
+  "opset": 17,
+  "android_dependency": "com.microsoft.onnxruntime:onnxruntime-android:1.23.2",
+  "architecture": "mobilenet_v3_small",
+  "classes": [
+    "not_coffee_leaf",
+    "coffee_leaf"
+  ],
+  "threshold": 0.5,
+  "input": {
+    "name": "image",
+    "dtype": "float32",
+    "shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "layout": "NCHW"
+  },
+  "output": {
+    "name": "scores",
+    "dtype": "float32",
+    "shape": [
+      1,
+      2
+    ],
+    "activation": "softmax_included",
+    "classification": "binary"
+  },
+  "preprocessing": {
+    "size": 224,
+    "resize": "aspect_preserving_fit",
+    "padding": "centered",
+    "fill_rgb": [
+      255,
+      255,
+      255
+    ],
+    "interpolation": "bilinear",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "orientation": "EXIF transpose",
+    "color": "RGB"
+  },
+  "models": {
+    "fp32": {
+      "file": "coffee_leaf_classifier.onnx",
+      "bytes": 6092114,
+      "sha256": "2dbdd0dd1c3f03947a6a5e1da19521b154e4a4671b92a920f11938957a4a13c2"
+    }
+  },
+  "recommended_model": "coffee_leaf_classifier.onnx",
+  "recommendation_scope": "Validation quantization quality only; not diagnostic approval or device speed",
+  "checkpoint_sha256": "5d9f94a74a18b32180da43ffeed5318360a9e453986ae7df9430e3bca3a7e185",
+  "calibration": null,
+  "quantization": null,
+  "versions": {
+    "torch": "2.1.0+cu118",
+    "torchvision": "0.16.0",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.23.2",
+    "numpy": "1.25.2",
+    "Pillow": "10.0.1"
+  },
+  "desktop_verified": true,
+  "android_device_tested": false,
+  "no_detection_text": "No suitable coffee leaf detected",
+  "leaf_thresholds": {
+    "reject": 0.2,
+    "accept": 0.8
+  },
+  "uncertain_text": "Please retake the photo"
+}

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mlinzi wa Kahawa</string>
+    <string name="take_photo">Piga Picha</string>
+    <string name="add_profile">Ongeza Profaili</string>
+    <string name="shared_profile">Pamoja</string>
+    <string name="disease_cercospora">Cercospora</string>
+    <string name="disease_miner">Miner (Mchimbaji)</string>
+    <string name="disease_phoma">Phoma</string>
+    <string name="disease_rust">Kutu (Rust)</string>
+    <string name="profile_name">Jina la Profaili</string>
+    <string name="choose_emoji">Chagua Picha ya Profaili</string>
+    <string name="create_profile">Tengeneza Profaili</string>
+    <string name="recent_scans">Historia ya Uchambuzi</string>
+    <string name="new_scan">Uchambuzi Mpya</string>
+    <string name="permission_camera_rationale">Programu hii inahitaji kamera ili kuchambua majani ya kahawa.</string>
+    <string name="disease_none">Hakuna hali inayolengwa iliyogunduliwa</string>
+    <string name="analysis_error">Picha hii haikuweza kuchambuliwa. Tafadhali jaribu tena.</string>
+    <string name="result_title">Matokeo ya picha</string>
+    <string name="analyzing_photo">Picha inakaguliwa…</string>
+    <string name="done">Maliza</string>
+    <string name="captured_coffee_leaf">Picha iliyopigwa kwa uchunguzi wa jani la kahawa</string>
+    <string name="not_coffee_leaf">Picha hii haikutambuliwa kuwa jani la kahawa.</string>
+    <string name="retake_photo">Hatukuweza kubaini kama hili ni jani la kahawa. Piga tena picha iliyo wazi na ya karibu.</string>
+    <string name="no_health_issue_detected">Hakuna tatizo la kiafya lililogunduliwa kwenye picha hii.</string>
+    <string name="screening_caveat">Uchunguzi wa picha unaweza kukosa matatizo na hauthibitishi kuwa mmea ni mzima. Ukiona dalili, wasiliana na mtaalamu wa kilimo.</string>
+    <string name="screening_detected_caveat">Huu ni uchunguzi wa picha, si utambuzi wa kitaalamu. Dalili zikiendelea, wasiliana na mtaalamu wa kilimo.</string>
+    <string name="history_not_coffee_leaf">Halikutambuliwa kuwa jani la kahawa</string>
+    <string name="history_retake_photo">Picha haiko wazi — piga tena</string>
+</resources>

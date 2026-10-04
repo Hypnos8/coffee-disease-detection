@@ -1,0 +1,21 @@
+{
+  "source_image": "C:\\Users\\Eric\\PycharmProjects\\coffee-disease-detection\\BRACOL_REVIEWED\\valid\\images\\1013_jpg.rf.e5276d6d8890cfea7724f9d063cca624.jpg",
+  "shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "dtype": "float32",
+  "byte_order": "little_endian",
+  "scores": {
+    "pytorch": [
+      1.3428910278889816e-05,
+      0.9999865293502808
+    ],
+    "fp32": [
+      1.3428833881334867e-05,
+      0.9999865293502808
+    ]
+  }
+}
