@@ -1,0 +1,8 @@
+BRACOL_REVIEWED/
+not_coffee_leaves/
+outputs/
+.cache/
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/

@@ -1,0 +1,4 @@
+# Optional export dependencies; install alongside requirements.txt.
+# ONNX 1.17 uses IR version 10, compatible with ONNX Runtime >=1.20.
+onnx>=1.16,<1.18
+onnxruntime>=1.20,<2
