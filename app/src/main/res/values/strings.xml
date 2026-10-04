@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Coffee Guardian</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="shared_profile">Shared</string>
+    <string name="disease_cercospora">Cercospora</string>
+    <string name="disease_miner">Miner</string>
+    <string name="disease_phoma">Phoma</string>
+    <string name="disease_rust">Rust</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="choose_emoji">Choose an Avatar</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="new_scan">New Scan</string>
+    <string name="permission_camera_rationale">This app needs camera access to analyze coffee leaves.</string>
+    <string name="disease_none">No target condition detected</string>
+    <string name="analysis_error">Could not analyze this photo. Please try again.</string>
+    <string name="result_title">Photo result</string>
+    <string name="analyzing_photo">Checking photo…</string>
+    <string name="done">Done</string>
+    <string name="captured_coffee_leaf">Captured photo for coffee leaf screening</string>
+    <string name="not_coffee_leaf">This photo was not recognized as a coffee leaf.</string>
+    <string name="retake_photo">We could not tell if this is a coffee leaf. Please retake a clear, close-up photo.</string>
+    <string name="no_health_issue_detected">No health issue detected in this photo.</string>
+    <string name="screening_caveat">A photo screening can miss problems and does not confirm that the plant is healthy. If you see symptoms, ask an agricultural expert.</string>
+    <string name="screening_detected_caveat">This is a photo screening, not a diagnosis. If symptoms continue, ask an agricultural expert.</string>
+    <string name="history_not_coffee_leaf">Not recognized as a coffee leaf</string>
+    <string name="history_retake_photo">Photo unclear — retake</string>
+</resources>
